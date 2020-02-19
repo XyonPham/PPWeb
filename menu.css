@@ -1,0 +1,65 @@
+body{
+    color: red
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    font-weight: 40px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+
+}
+
+button:hover {
+    background-color: green;
+    }
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    line-height: 0;
+
+}
+
+.menu-logo{
+    text-align: center;
+}
+
+.menu-box{
+    border: 20px solid white;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
