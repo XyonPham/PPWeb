@@ -24,6 +24,7 @@ header {
   cursor: pointer;
   margin-right: auto;
   height: 80px;
+  background: transparent;
 }
 
 .nav-item {
@@ -39,6 +40,7 @@ header {
 .main-pic {
   width: 100%;
   height: fit-content;
+  background-color: transparent;
 }
 
 .about-us {
@@ -147,4 +149,11 @@ p {
   background-position: bottom;
   width: 100%;
   height: 740px;
+}
+
+.call {
+    cursor: pointer;
+    position: absolute ;
+    right: 20px;
+    
 }
